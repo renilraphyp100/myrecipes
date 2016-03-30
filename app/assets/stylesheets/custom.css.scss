@@ -1,0 +1,38 @@
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+    margin: 10px 10px 10px 0px;
+    float: left;
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 9px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    text-decoration:none;
+}
+
+body {
+    padding: 80px;
+}
+
+.nav_item {
+    margin: 20px 0px 0px 25px;
+    float:left;
+}
+
+.center {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1;
+}
